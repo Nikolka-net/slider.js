@@ -7,8 +7,7 @@
     "build": "webpack --mode=production",
     "watch": "webpack --watch",
     "lint": "eslint ./js",
-    "lint:fix": "eslint ./js --fix --color",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:fix": "eslint ./js --fix --color"
   },
   "keywords": [],
   "author": "",

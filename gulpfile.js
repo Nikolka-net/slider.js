@@ -100,11 +100,11 @@ gulp.task('build', gulp.series('clean', 'img', 'css', 'js', cb => {
 	const buildHtml = gulp.src('./*.html') // Переносим HTML в продакшен
 		.pipe(gulp.dest('dist'))
 		.pipe(notify('Done! Dist ready.'));
-		cb();
+	cb();
 
-		//const buildCss = gulp.src('./css/style.min.css')
-			//.pipe(gulp.dest('dist/css'));
-		
+	// const buildCss = gulp.src('./css/style.min.css')
+	// .pipe(gulp.dest('dist/css'));
+
 	// const buildJs = gulp.src('./js/**/*')
 	// .pipe(gulp.dest('dist/js'));
 
