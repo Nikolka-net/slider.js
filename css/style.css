@@ -68,6 +68,20 @@ body .underline {
   margin-bottom: 3rem;
 }
 
+body h1 {
+  font-size: 4.8rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: .1px;
+  line-height: .9;
+}
+
+body h2 {
+  font-size: 3.6rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
 .companies {
   padding: 5rem;
 }

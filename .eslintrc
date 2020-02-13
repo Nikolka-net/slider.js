@@ -23,11 +23,12 @@
             "error",
             "always"
         ],
-        // "no-console": "off", //консоль не учитывается
+        "no-console": "off", //консоль не учитывается
         "no-plusplus": "off", //2 плюса
         "no-tabs": "off", //без табов
         "no-alert": "off", //можно использовать alert
         //"prefer-destructuring":"off",//отключаем деструктуризацию
+        "strict": "off",
         "no-loop-func": [
             "error"
         ],
@@ -42,10 +43,10 @@
             "error",
             "always"
         ],
-        "strict": [
-            "error",
-            "global"
-        ],
+        /*  "strict": [
+             "error",
+             "global"
+         ], */
         "brace-style": [
             "error",
             "1tbs",
