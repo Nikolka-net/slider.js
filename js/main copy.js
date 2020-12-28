@@ -85,7 +85,6 @@ class SliderCarousel {
 				border: 20px solid transparent;
 				background: transparent;
 				cursor: pointer !important;
-				transform: translateY(-40px);
 			}
 			.glo-slider__next {
 				border-left-color: #19b5fe;

@@ -1,4 +1,4 @@
-const path = require('path'); // подключаем путь
+import path from 'path'; // подключаем путь
 
 module.exports = {
 	entry: {

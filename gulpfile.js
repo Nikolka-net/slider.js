@@ -87,7 +87,7 @@ gulp.task('clear', callback => (
 /* deleted dist */
 
 gulp.task('clean', cb => (
-	del('dist'),
+	del('dist')
 	console.log('dist deleted'),
 	cb()));
 
